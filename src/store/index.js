@@ -24,7 +24,7 @@ createSlice({
 })
 
 const store = configureStore({
-    reducer:
+    reducer:createSlice
 })
 
 // const counterReducer = (state = {counter:0, showCounter:true},action) => {
