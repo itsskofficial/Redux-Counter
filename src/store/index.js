@@ -28,7 +28,7 @@ const store = configureStore({
 })
 
 const counterActions = counterSlice.actions
-export 
+export counterActions
 
 // const counterReducer = (state = {counter:0, showCounter:true},action) => {
 //     if (action.type === 'increment') {
