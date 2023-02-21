@@ -9,6 +9,10 @@ const Counter = () => {
     dispatch({type:'increment'})
   }
 
+  const decrementhandler = () => {
+    dispatch({type:'decrement'})
+  }
+
   return (
     <main className={classes.counter}>
       <h1>Redux Counter</h1>
