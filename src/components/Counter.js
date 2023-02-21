@@ -56,6 +56,8 @@ class Counter extends Component{
   }
 }
 
-const mapStateToProps = () 
+const mapStateToProps = () => {
+  return 
+}
 
 export default connect(mapStateToProps,mapDispatchToProps)(Counter)
