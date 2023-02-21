@@ -28,6 +28,7 @@ const store = configureStore({
 })
 
 export const counterActions = counterSlice.actions
+export default store
 
 // const counterReducer = (state = {counter:0, showCounter:true},action) => {
 //     if (action.type === 'increment') {
@@ -59,5 +60,3 @@ export const counterActions = counterSlice.actions
 // }
 
 // const store = redux.createStore(counterReducer)
-
-export default store
