@@ -5,7 +5,7 @@ const Counter = () => {
   const counter = useSelector(state=>state.counter)
   const dispatch = useDispatch()
   const toggleCounterHandler = () => {
-    dispatch
+    dispatch({type:'toggle'})
   };
 
   const incrementHandler = () => {
