@@ -2,6 +2,7 @@ import redux from 'redux'
 import { createSlice } from '@reduxjs/toolkit'
 
 createSlice({
+    name: 'counter',
     
 })
 const counterReducer = (state = {counter:0, showCounter:true},action) => {
