@@ -64,7 +64,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    increment: () => { dispatch({ type: 'increment' }) }
+    increment: () => { dispatch({ type: 'increment' }) },
     decrement: () => { dispatch({ type: 'decrement' }) }
   }
 }
