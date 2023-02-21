@@ -20,7 +20,7 @@ const Counter = () => {
       <div className={classes.value}>{counter}</div>
       <div>
         <button onClick={incrementHandler}>Increment</button>
-        <button onClick={}>Decrement</button>
+        <button onClick={decrementhandler}>Decrement</button>
       </div>
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
     </main>
