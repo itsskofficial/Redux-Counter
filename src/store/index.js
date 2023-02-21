@@ -1,5 +1,5 @@
 import redux from 'redux'
-
+import { createSlice } from '@reduxjs/toolkit'
 
 const counterReducer = (state = {counter:0, showCounter:true},action) => {
     if (action.type === 'increment') {
