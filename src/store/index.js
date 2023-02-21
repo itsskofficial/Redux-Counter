@@ -16,6 +16,8 @@ createSlice({
         increase(state, action) {
             state.counter+=action.amount
         }
+
+        
     }
 })
 const counterReducer = (state = {counter:0, showCounter:true},action) => {
