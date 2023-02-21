@@ -1,4 +1,3 @@
-import { act } from 'react-dom/test-utils'
 import redux from 'redux'
 
 const counterReducer = (state = {counter:0},action) => {
@@ -8,7 +7,7 @@ const counterReducer = (state = {counter:0},action) => {
         }
     }
 
-    if (act)
+    if (action.type)
     
     if (action.type === 'decrement') {
         return {
