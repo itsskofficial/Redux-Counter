@@ -14,7 +14,7 @@ createSlice({
         },
 
         increase(state, action) {
-            
+            state.counter+=action.amount
         }
     }
 })
