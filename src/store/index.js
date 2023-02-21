@@ -24,7 +24,7 @@ const counterSlice = createSlice({
 })
 
 const store = configureStore({
-    reducer:counterSlice.re
+    reducer:counterSlice.reducer
 })
 
 // const counterReducer = (state = {counter:0, showCounter:true},action) => {
