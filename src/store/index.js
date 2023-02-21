@@ -1,5 +1,5 @@
 import redux from 'redux'
-import { createSlice } from '@reduxjs/toolkit'
+import { configureStore, createSlice } from '@reduxjs/toolkit'
 
 createSlice({
     name: 'counter',
@@ -21,6 +21,10 @@ createSlice({
             state.showCounter=!state.showCounter
         }
     }
+})
+
+const store = configureStore({
+    reducer:
 })
 
 // const counterReducer = (state = {counter:0, showCounter:true},action) => {
