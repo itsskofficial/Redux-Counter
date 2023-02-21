@@ -29,7 +29,7 @@ const Counter = () => {
 
 export default Counter;
 
-//import { Component } from 'react/cjs/react.production.min';
+// import { Component } from 'react/cjs/react.production.min';
 // class Counter extends Component{
 //   incrementHandler() {
 //     this.increment()
