@@ -56,7 +56,7 @@ class Counter extends Component{
   }
 }
 
-const mapStateToProps = () => {
+const mapStateToProps = (state) => {
   return {
     counter: state.counter
   }
