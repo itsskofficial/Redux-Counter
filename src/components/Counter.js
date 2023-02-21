@@ -39,5 +39,9 @@ class Counter extends Component{
     this.decrement()
   }
 
-  toggleCounterHandler(){}
+  toggleCounterHandler() { }
+  
+  render(){
+    
+  }
 }
