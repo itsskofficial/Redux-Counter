@@ -1,3 +1,4 @@
+import { act } from 'react-dom/test-utils'
 import redux from 'redux'
 
 const counterReducer = (state = {counter:0},action) => {
@@ -6,6 +7,8 @@ const counterReducer = (state = {counter:0},action) => {
             counter: state.counter + 1
         }
     }
+
+    if (act)
     
     if (action.type === 'decrement') {
         return {
@@ -17,3 +20,5 @@ const counterReducer = (state = {counter:0},action) => {
 }
 
 const store = redux.createStore(counterReducer)
+
+export default store
