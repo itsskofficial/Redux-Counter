@@ -42,6 +42,16 @@ class Counter extends Component{
   toggleCounterHandler() { }
   
   render(){
-    
+    return (
+      <main className={classes.counter}>
+        <h1>Redux Counter</h1>
+        <div className={classes.value}>{counter}</div>
+        <div>
+          <button onClick={incrementHandler}>Increment</button>
+          <button onClick={decrementhandler}>Decrement</button>
+        </div>
+        <button onClick={toggleCounterHandler}>Toggle Counter</button>
+      </main>
+    );
   }
 }
