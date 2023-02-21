@@ -23,6 +23,8 @@ const counterSlice = createSlice({
     }
 })
 
+
+
 const store = configureStore({
     reducer:counterSlice.reducer
 })
