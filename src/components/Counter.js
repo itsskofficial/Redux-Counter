@@ -35,5 +35,7 @@ class Counter extends Component{
     this.increment()
   }
 
-  
+  decrementHandler() {
+    this.decrement()
+  }
 }
