@@ -62,6 +62,10 @@ const mapStateToProps = (state) => {
   }
 }
 
-const mapDispatchToProps = (dispatch) 
+const mapDispatchToProps = (dispatch) => [
+  return {
+    increment: () => {}
+  }
+]
 
 export default connect(mapStateToProps,mapDispatchToProps)(Counter)
