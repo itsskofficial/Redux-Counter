@@ -12,15 +12,18 @@ const Counter = () => {
   };
 
   const incrementHandler = () => {
-    dispatch({type:'increment'})
+    dispatch({ type: 'increment' })
+    dispatch(counterActions.increment())
   }
 
   const increaseHandler = () => {
-    dispatch({type:'increase', amount:5})
+    dispatch({ type: 'increase', amount: 5 })
+    dispatch(counterActions.increment())
   }
 
   const decrementhandler = () => {
-    dispatch({type:'decrement'})
+    dispatch({ type: 'decrement' })
+    dispatch(counterActions.increment())
   }
 
   return (
