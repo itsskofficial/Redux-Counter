@@ -9,7 +9,9 @@ createSlice({
             state.counter++
         }
 
-        decodeURIComponent(state)
+        decodeURIComponent(state) {
+            state.counter--
+        }
     }
 })
 const counterReducer = (state = {counter:0, showCounter:true},action) => {
