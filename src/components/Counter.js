@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { Component } from 'react/cjs/react.production.min';
 import classes from './Counter.module.css';
 
 const Counter = () => {
@@ -29,4 +30,6 @@ const Counter = () => {
 
 export default Counter;
 
-
+class Counter extends Component{
+  
+}
