@@ -27,7 +27,6 @@ const store = configureStore({
     reducer:counterSlice.reducer
 })
 
-
 export const counterActions = counterSlice.actions
 
 // const counterReducer = (state = {counter:0, showCounter:true},action) => {
