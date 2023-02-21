@@ -23,7 +23,10 @@ const counterSlice = createSlice({
     }
 })
 
-
+const authSlice = createSlice({
+    name: 'auth',
+    
+})
 
 const store = configureStore({
     reducer:counterSlice.reducer
