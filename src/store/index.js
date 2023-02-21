@@ -1,6 +1,6 @@
 import redux from 'redux'
 
-const counterReducer = (state = {counter:0},action) => {
+const counterReducer = (state = {counter:0, showCounter:tr},action) => {
     if (action.type === 'increment') {
         return {
             counter: state.counter + 1
