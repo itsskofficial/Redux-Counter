@@ -48,7 +48,7 @@ export default Counter;
 //         <div className={classes.value}>{counter}</div>
 //         <div>
 //           <button onClick={this.incrementHandler.bind(this)}>Increment</button>
-//           <button onClick={decrementhandler}>Decrement</button>
+//           <button onClick={this.decrementhandler}>Decrement</button>
 //         </div>
 //         <button onClick={toggleCounterHandler}>Toggle Counter</button>
 //       </main>
