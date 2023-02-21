@@ -31,5 +31,7 @@ const Counter = () => {
 export default Counter;
 
 class Counter extends Component{
-  incrementHandler()
+  incrementHandler() {
+    this.increment()
+  }
 }
