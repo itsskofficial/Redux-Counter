@@ -25,7 +25,8 @@ const counterSlice = createSlice({
 
 const authSlice = createSlice({
     name: 'auth',
-    initialState:
+    initialState: {isAuthenticated:false},
+    
 })
 
 const store = configureStore({
