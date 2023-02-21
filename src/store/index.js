@@ -22,7 +22,7 @@ const counterReducer = (state = {counter:0},action) => {
     if (action.type === 'toggle') {
         return (
             counter: state.counter,
-            showCounter:
+            showCounter:!state.showCounter
         )
     }
 
