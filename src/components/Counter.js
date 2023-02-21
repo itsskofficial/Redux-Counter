@@ -38,4 +38,6 @@ class Counter extends Component{
   decrementHandler() {
     this.decrement()
   }
+
+  toggleCounterHandler(){}
 }
