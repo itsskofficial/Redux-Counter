@@ -3,7 +3,7 @@ import classes from './Counter.module.css';
 
 const Counter = () => {
   const counter = useSelector(state=>state.counter)
-  cosn
+  const show = useSelector(state=>state.showCounter)
   const dispatch = useDispatch()
   const toggleCounterHandler = () => {
     dispatch({type:'toggle'})
