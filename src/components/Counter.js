@@ -10,6 +10,8 @@ const Counter = () => {
     dispatch({type:'increment'})
   }
 
+  const increase
+
   const decrementhandler = () => {
     dispatch({type:'decrement'})
   }
