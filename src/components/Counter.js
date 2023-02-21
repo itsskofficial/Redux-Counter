@@ -55,3 +55,5 @@ class Counter extends Component{
     );
   }
 }
+
+export Coun
