@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { authActions } from '../store';
 import classes from './Header.module.css';
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
   const dispatch = useDispatch()
 
   const logoutHandler = () => {
-    
+    disptach(authActions.logout())
   }
   return (
     <header className={classes.header}>
