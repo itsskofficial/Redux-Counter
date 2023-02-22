@@ -1,6 +1,6 @@
 //import redux from 'redux'
 import { configureStore, createSlice } from '@reduxjs/toolkit'
-
+import counterSlice
 const store = configureStore({
     reducer: { counter: counterSlice.reducer, auth: authSlice.reducer }
 })
