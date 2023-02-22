@@ -1,6 +1,7 @@
 import classes from './Auth.module.css';
 
 const Auth = () => {
+  const isAu
   return (
     <main className={classes.auth}>
       <section>
