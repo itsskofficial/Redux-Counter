@@ -8,6 +8,7 @@ function App() {
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
   return (
     <Fragment>
+      {is}
       {isAuthenticated ? <UserProfile /> : <Auth/>}
       <Counter />
     </Fragment>
