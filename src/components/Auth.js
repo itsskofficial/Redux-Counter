@@ -6,7 +6,7 @@ const Auth = () => {
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
   const dispatch = useDispatch()
 
-
+  const loginHandler 
   return (
     <main className={classes.auth}>
       <section>
