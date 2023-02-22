@@ -5,7 +5,9 @@ const Header = () => {
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
   const dispatch = useDispatch()
 
-  const logoutHandler = )
+  const logoutHandler = () => {
+    
+  }
   return (
     <header className={classes.header}>
       <h1>Redux Auth</h1>
