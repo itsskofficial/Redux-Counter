@@ -1,7 +1,7 @@
 import classes from './Auth.module.css';
 
 const Auth = () => {
-  const isAu
+  const isAuthenticated
   return (
     <main className={classes.auth}>
       <section>
