@@ -1,4 +1,5 @@
 import classes from './Auth.module.css';
+import { useSelector } from 'react-redux';
 
 const Auth = () => {
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
