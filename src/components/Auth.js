@@ -1,9 +1,9 @@
 import classes from './Auth.module.css';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 const Auth = () => {
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
-  
+  const dispatch = useDispatch()
   return (
     <main className={classes.auth}>
       <section>
