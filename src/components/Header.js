@@ -7,7 +7,7 @@ const Header = () => {
   const dispatch = useDispatch()
 
   const logoutHandler = () => {
-    disptach(authActions.logout())
+    dispatch(authActions.logout())
   }
   return (
     <header className={classes.header}>
