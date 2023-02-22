@@ -20,7 +20,7 @@ const Header = () => {
             <a href='/'>My Sales</a>
           </li>
           <li>
-            <button>Logout</button>
+            <button onClick={logoutH}>Logout</button>
           </li>
         </ul>
       </nav>
