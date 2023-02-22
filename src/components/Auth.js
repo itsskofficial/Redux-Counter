@@ -1,7 +1,8 @@
 import classes from './Auth.module.css';
 
 const Auth = () => {
-  const isAuthenticated
+  const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
+  
   return (
     <main className={classes.auth}>
       <section>
