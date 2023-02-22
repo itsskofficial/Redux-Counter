@@ -1,6 +1,6 @@
 import Counter from './components/Counter';
 import Auth from './components/Auth';
-import User
+import UserProfile from './components/UserProfile'
 import { useSelector } from 'react-redux';
 import { Fragment } from 'react';
 
