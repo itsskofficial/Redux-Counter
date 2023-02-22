@@ -7,7 +7,7 @@ const Auth = () => {
   const dispatch = useDispatch()
 
   const loginHandler = () => {
-    dispatch()
+    dispatch(authActions.login())
   }
   return (
     <main className={classes.auth}>
