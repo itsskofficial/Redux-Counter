@@ -22,4 +22,4 @@ const counterSlice = createSlice({
     }
 })
 
-export 
+export default counterSlice
