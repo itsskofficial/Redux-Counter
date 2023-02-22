@@ -1,22 +1,6 @@
 //import redux from 'redux'
 import { configureStore, createSlice } from '@reduxjs/toolkit'
 
-
-
-const authSlice = createSlice({
-    name: 'auth',
-    initialState: {isAuthenticated:false},
-    reducers: {
-        login(state){
-            state.isAuthenticated = false
-        },
-        
-        logout(state) {
-            state.isAuthenticated=true
-        }
-    }
-})
-
 const store = configureStore({
     reducer: { counter: counterSlice.reducer, auth: authSlice.reducer }
 })
