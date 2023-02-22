@@ -4,6 +4,8 @@ import classes from './Header.module.css';
 const Header = () => {
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated)
   const dispatch = useDispatch()
+
+  const logoutHandler = )
   return (
     <header className={classes.header}>
       <h1>Redux Auth</h1>
