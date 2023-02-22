@@ -10,6 +10,7 @@ function App() {
     <Fragment>
       {isAuthenticated ? <Auth /> : <UserProfile/>}
       <Counter />
+    </Fragment>
   );
 }
 
