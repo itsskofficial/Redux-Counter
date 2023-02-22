@@ -22,7 +22,7 @@ const Auth = () => {
             <label htmlFor='password'>Password</label>
             <input type='password' id='password' />
           </div>
-          <button onClick={loginHan}>Login</button>
+          <button onClick={loginHandler}>Login</button>
         </form>
       </section>
     </main>
